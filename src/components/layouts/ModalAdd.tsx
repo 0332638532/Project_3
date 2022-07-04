@@ -37,7 +37,7 @@ const ModalAdd: React.FC<Props> = ({ closeModalAdd }) => {
             </div>
             <div className="date-time">
               <div className="modal-add-body-box">
-                <h3 className="sub-heading">Ngày áo dụng</h3>
+                <h3 className="sub-heading">Ngày áp dụng</h3>
                 <Space direction="horizontal" size={12}>
                   <DatePicker onChange={onChangeApplyDate} />
                   <TimePicker
